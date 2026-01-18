@@ -722,7 +722,7 @@ body.detail-page {
 .service-card:hover {
     transform: translateY(-10px);
     border-color: #2e0984;
-    background: rgba(138, 109, 206, 0.05);
+    background: #000000;
     box-shadow: 0 15px 40px #2e0984;
 }
 
@@ -950,6 +950,7 @@ body.detail-page {
   visibility: hidden;
 
 }
+
 
 
 
