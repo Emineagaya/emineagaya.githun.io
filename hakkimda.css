@@ -121,13 +121,6 @@
     --text-color: #FFFFFF;
     --link-opacity: 0.7;
 }
-body.detail-page {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: #000000;
-    color: #eaeaea;
-    line-height: 1.7;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -957,6 +950,7 @@ body {
   visibility: hidden;
 
 }
+
 
 
 
