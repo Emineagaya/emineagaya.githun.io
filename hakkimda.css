@@ -137,10 +137,9 @@ body.detail-page {
 
 body {
     background-color: #000000;
-    color: var(--text-color);
-    min-height: 100vh;
-    padding-top: 100px;
-    overflow-x: hidden;
+    color: #ffffff;
+    padding: 50px 20px;
+    line-height: 1.6;
 }
 
 :root {
@@ -958,5 +957,6 @@ body {
   visibility: hidden;
 
 }
+
 
 
