@@ -28,7 +28,7 @@
 
 .card {
     display: flex;
-    background-color: #0d0d0d;
+    background-color: #000000;
     border: 2px solid #2e0984;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -516,7 +516,7 @@ body.detail-page {
 }
 
 .experience-section .card {
-    background: #11111a;
+    background: #000000;
     border-radius: 14px;
     padding: 25px 30px;
     margin-bottom: 50px;
@@ -551,7 +551,7 @@ body.detail-page {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background: #11111a;
+    background: #000000;
     padding: 30px;
     border-radius: 18px;
     box-shadow: 0 0 20px rgba(139, 92, 246, 0.1);
@@ -588,7 +588,7 @@ body.detail-page {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 25px;
-    background: #11111a;
+    background: #000000;
     padding: 25px 25px 0 25px; 
     border-radius: 20px;
     border: 1px solid rgba(139, 92, 246, 0.1);
@@ -694,7 +694,7 @@ body.detail-page {
 }
 
 .service-card {
-    background: #11111a;
+    background: #000000;
     border-radius: 18px;
     padding: 45px 30px;
     text-align: center;
@@ -950,6 +950,7 @@ body.detail-page {
   visibility: hidden;
 
 }
+
 
 
 
