@@ -128,7 +128,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
+body.detail-page {
     background-color: #000000;
     color: #ffffff;
     padding: 50px 20px;
@@ -950,6 +950,7 @@ body {
   visibility: hidden;
 
 }
+
 
 
 
