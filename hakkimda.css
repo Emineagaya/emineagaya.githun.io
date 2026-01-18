@@ -1,11 +1,4 @@
 
-body {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 50px 20px;
-    line-height: 1.6;
-}
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -963,4 +956,5 @@ body {
 .scroll-arrow-container.hidden {
   opacity: 0;
   visibility: hidden;
+
 }
