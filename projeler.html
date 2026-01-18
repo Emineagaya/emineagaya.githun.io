@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeler | Emine Ağaya</title>
+    <link rel="stylesheet" href="projeler.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">
+      <img src="image/logo.png" alt="Emine'nin Logosu">
+    </div>
+      <button class="hamburger" aria-label="Menü"> ☰
+      </button>
+
+    <nav class="nav-links">
+        <ul>
+        <li><a href="index.html">GİRİŞ</a></li>
+        <li><a href="hakkimda.html">HAKKIMDA</a></li>
+        <li><a href="hakkimda.html#deneyim">DENEYİMLER</a></li>
+        <li><a href="projeler.html" class="active-link">PROJELER</a></li>
+        <li><a href="index.html#iletisim">İLETİŞİM</a></li>
+        </ul>
+    </nav>
+
+    </header>
+    <main class="container">
+        <h1 class="main-title">PROJE VE YAYINLARIM</h1>
+
+        <section class="section">
+            <h2 class="sub-title">Projeler</h2>
+            
+            <div class="card project-card">
+                <div class="card-content">
+                    <span class="date">Mart 2024</span>
+                    <h3 class="item-title">5G Ağlarında Cihazdan Cihaza Haberleşme ve Giyilebilir Teknolojiler İçin Yeni Bir Yama Anten Tasarımı</h3>
+                    <p class="description">
+                        TÜBİTAK 2209-B kapsamında yürütülen bu AR-GE projesinde, 5G ve giyilebilir teknolojiler için 12 farklı anten varyasyonu tasarlanmış ve analiz edilmiştir. Çalışma; 6 adet referans yama anten ile bu antenlerin performansını artırmak amacıyla geliştirilen 6 adet özgün yarıklı (slotted) anten yapısının karşılaştırmalı analizini içerir. CST Studio Suite üzerinde gerçekleştirilen bu geniş kapsamlı simülasyonlardan elde edilen veriler, Python ortamında işlenerek bir veri seti haline getirilmiştir. Bu veri seti üzerinde eğitilen KNN (K-Nearest Neighbors) makine öğrenmesi modeli ile anten geometrisi ve performans parametreleri (S11, kazanç, bant genişliği) arasındaki karmaşık ilişki modellenmiş; geleneksel simülasyon süreçlerini hızlandıran akıllı bir tahmin mekanizması oluşturulmuştur.
+                    </p>
+                    <div class="tech-stack">
+                      <span>CST Studio Suite</span>
+                      <span>MATLAB (Phased Array System)</span>
+                      <span>Python (Scikit-learn)</span>
+                      <span>Machine Learning (KNN)</span>
+                      <span>5G D2D Communication</span>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="image/Ekran görüntüsü 2026-01-08 174759.png" alt="Proje Görseli">
+                    <img src="image/Ekran görüntüsü 2026-01-08 174827.png" alt="Anten Analiz Grafiği" style="margin-top: 15px;">
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <div class="card-content">
+                    <span class="date">Ekim 2023 - Aralık 2024</span>
+                    <h3 class="item-title">Teknıfest İnsansız Su Altı Sistemleri Yarışması</h3>
+                    <p class="description">
+                        Teknofest İnsansız Denizaltı Sistemleri yarışması kapsamında geliştirilen bu proje, su altı otonom navigasyon ve veri toplama yeteneklerine sahip bir platformun elektronik kontrol altyapısını kapsamaktadır. Proje sürecinde, derinlik, sızdırmazlık ve ivmeölçer gibi kritik sensörlerin Arduino tabanlı sistemlere entegrasyonu gerçekleştirilmiş ve veri okuma süreçleri optimize edilmiştir. Devre kartı tasarımları ve sistem simülasyonları Proteus ortamında test edilerek, su altı koşullarında kararlı çalışan donanım mimarileri oluşturulmuştur. Ayrıca, kontrol algoritmalarının matematiksel modellemesi ve sensör verilerinin analizi için MATLAB kullanılarak sistemin dinamik tepkileri iyileştirilmiştir.
+                    </p>
+                    <div class="tech-stack">
+                        <span>Arduino</span>
+                        <span>Proteus (PCB Design)</span>
+                        <span>MATLAB</span>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="image/araç.jpg" alt="Proje Görseli">
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <div class="card-content">
+                    <span class="date">Ocak 2025</span>
+                    <h3 class="item-title">Bitirme Projesi: Kayıp Takibine Yönelik İnsan Sağlığına Zararsız Keçe ve Kot Tabanlı Giyilebilir Yeni Bir Anten Tasarımı</h3>
+                    <p class="description">
+                        TÜBİTAK 2209-B programı kapsamında desteklenen bu projede, kayıp birey ve evcil hayvan takibi için GPS sistemlerine alternatif, hafif ve giysilere entegre edilebilir bir anten teknolojisi geliştirilmiştir. Çalışma kapsamında, 2.4 GHz frekans bandında çalışan mikroşerit yama antenlerin tüm teorik hesaplamaları ve geometrik parametre analizleri tarafımca gerçekleştirilmiştir. Literatürde yenilikçi bir yaklaşım olarak dielektrik katmanda keçe ve kot kumaş kullanılarak materyal karakterizasyonu yapılmış; bu esnek yapıların elektromanyetik performansları CST Studio Suite üzerinden simüle edilmiştir. Tasarım sürecinde, antenin kazanç, yönlülük ve bant genişliği değerleri optimize edilerek sağlığa zararsız ve yüksek verimliliğe sahip bir sistem mimarisi oluşturulmuştur. Proje sonucunda, geleneksel takip cihazlarının ağırlık ve enerji kısıtlamalarını aşan, düşük maliyetli ve çevre dostu bir giyilebilir teknoloji çözümü ortaya konulmuştur.
+                    </p>
+                    <div class="tech-stack">
+                        <span>CST Studio Suite</span>
+                        <span>Anten Tasarımı</span>
+                        <span>Materyal Karakterizasyonu</span>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="image/Ekran görüntüsü 2026-01-08 180933.png" alt="Proje Görseli">
+                    <img src="image/Ekran görüntüsü 2026-01-08 180940.png" alt="Proje Görseli">
+                </div>
+            </div>
+
+            <div class="card project-card">
+                <div class="card-content">
+                    <span class="date">Ocak 2025</span>
+                    <h3 class="item-title">Kişisel Web Sitesi</h3>
+                    <p class="description">
+                        Mühendislik çalışmalarımı ve teknik yetkinliklerimi dijital ortamda sergilemek amacıyla, kullanıcı deneyimi (UX) odaklı ve tam duyarlı (responsive) bir kişisel portfolyo platformu geliştirilmiştir. Proje kapsamında, modern web standartlarına uygun olarak HTML5 ve CSS3 teknolojileri kullanılmış; projelerin scannability (taranabilirlik) oranını artıran kart tabanlı bir arayüz mimarisi kurgulanmıştır. Tasarım sürecinde Flexbox yapısı kullanılarak farklı ekran boyutlarına uyumlu, dinamik ve etkileşimli bir yapı oluşturulmuştur. Görsel hiyerarşi, mor ve siyahın hakim olduğu modern bir renk paleti ile desteklenmiş; teknik detayların ve mühendislik çıktılarının profesyonel bir dille sunulduğu, temiz kod yapısına sahip bir platform ortaya konulmuştur.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3 (Modern UI)</span>
+                        <span>Responsive Design</span>
+                        <span>UI/UX Design</span>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="image/Ekran görüntüsü 2026-01-18 221802.png" alt="Proje Görseli">
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="sub-title">Yayınlar</h2>
+            <div class="card publication-card">
+                <div class="card-content">
+                    <span class="date">Mart 2024</span>
+                    <h3 class="item-title">ELECO 2024 Akademik Bildiri</h3>
+                    <p class="description">
+                        TÜBİTAK 2209-B projesi kapsamında elde edilen bulgular, ELECO 2024 (14th International Conference on Electrical and Electronics Engineering) kapsamında bilimsel bir bildiri olarak sunulmuş ve IEEE Xplore dijital kütüphanesinde yayınlanmıştır. Bu çalışma; 5G haberleşme standartlarında kullanılan dikdörtgen yarık (slotted) anten geometrilerinin, geleneksel laminat malzemeler (FR-4) ile yenilikçi giyilebilir tekstil malzemeleri üzerindeki performans karakteristiklerini karşılaştırmalı olarak analiz etmektedir. Yayın, teorik tasarımın akademik literatürdeki doğruluğunu ve giyilebilir anten teknolojilerinin gelecekteki uygulama potansiyelini teknik verilerle kanıtlamaktadır.
+                    </p>
+                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10847163" class="link-btn">Yayını Oku (IEEE Xplore) →</a>
+                </div>
+                <div class="card-image">
+                    <img src="image/bildiri.png" alt="Yayın Görseli">
+                </div>
+            </div>
+        </section>
+
+        <div class="back-home-container">
+            <a href="index.html" class="btn-back">ANA SAYFAYA DÖN</a>
+        </div>
+
+    </main>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Seçiciler (Class üzerinden)
+    const hamburger = document.querySelector('.hamburger');
+    const navLinksContainer = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links ul li a');
+
+    // Menü Açma/Kapatma Fonksiyonu
+    const toggleMenu = () => {
+        if (navLinksContainer && hamburger) {
+            const isActive = navLinksContainer.classList.toggle('active');
+            hamburger.innerHTML = isActive ? '✕' : '☰';
+            
+            // Menü açıkken arka planın kaymasını engellemek için (opsiyonel)
+            document.body.style.overflow = isActive ? 'hidden' : 'auto';
+        }
+    };
+
+    // Hamburger butonuna tıklandığında
+    if (hamburger) {
+        hamburger.addEventListener('click', toggleMenu);
+    }
+
+    // Menüdeki bir linke tıklandığında menüyü kapat
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (navLinksContainer && navLinksContainer.classList.contains('active')) {
+                toggleMenu();
+            }
+        });
+    });
+
+    // Kaydırma Efekti (Reveal)
+    const reveals = document.querySelectorAll(".card, .sub-title, .main-title");
+    
+    function reveal() {
+        reveals.forEach(el => {
+            const windowHeight = window.innerHeight;
+            const elementTop = el.getBoundingClientRect().top;
+            const elementVisible = 50;
+            
+            if (elementTop < windowHeight - elementVisible) {
+                el.classList.add("appear");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", reveal);
+    window.addEventListener("load", reveal);
+    reveal(); // Sayfa yüklendiğinde bir kez çalıştır
+});
+</script>
+</body>
+</html>
