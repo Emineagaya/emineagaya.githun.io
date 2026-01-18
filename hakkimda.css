@@ -136,7 +136,7 @@ body.detail-page {
 }
 
 body {
-    background: radial-gradient(circle at center, #111111 0%, #000000 100%);
+    background: radial-gradient(circle at center, #000000 100%, #000000 100%);
     color: var(--text-color);
     min-height: 100vh;
     padding-top: 100px;
@@ -958,3 +958,4 @@ body {
   visibility: hidden;
 
 }
+
