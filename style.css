@@ -7,7 +7,7 @@
 }
 
 body {
-    background: radial-gradient(circle at center, #000000 0%, #000000 100%);
+    background-calor: #000000;
     color: var(--text-color);
     min-height: 100vh;
     padding-top: 100px;
@@ -872,3 +872,4 @@ body {
     pointer-events: none !important;
 
 }
+
